@@ -1,0 +1,23 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local database backups and exports
+*.sql
+SmartLocker_Backup_*.csv
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
